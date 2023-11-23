@@ -139,6 +139,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1A33F97F2B0F97C800B3CB08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98AB2E7F1CAD46830089BB98 /* moonlight-common.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1A33F96A2B0F93EF00B3CB08;
+			remoteInfo = "moonlight-common-cpp";
+		};
 		98AB2E831CAD46840089BB98 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 98AB2E7F1CAD46830089BB98 /* moonlight-common.xcodeproj */;
@@ -456,6 +463,7 @@
 			children = (
 				98AB2E841CAD46840089BB98 /* libmoonlight-common.a */,
 				FB1A68152132509400507771 /* libmoonlight-common-tv.a */,
+				1A33F9802B0F97C800B3CB08 /* libmoonlight-common-cpp.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -933,7 +941,6 @@
 						};
 					};
 					FB290CED19B2C406004C83CF = {
-						DevelopmentTeam = DM46QST4M7;
 						LastSwiftMigration = 1140;
 					};
 				};
@@ -964,6 +971,13 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		1A33F9802B0F97C800B3CB08 /* libmoonlight-common-cpp.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libmoonlight-common-cpp.a";
+			remoteRef = 1A33F97F2B0F97C800B3CB08 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		98AB2E841CAD46840089BB98 /* libmoonlight-common.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;

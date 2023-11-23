@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A33F9742B0F942300B3CB08 /* mux.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A33F9732B0F942300B3CB08 /* mux.cpp */; };
+		1A33F97C2B0F977F00B3CB08 /* ScreamRx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A33F97A2B0F977F00B3CB08 /* ScreamRx.cpp */; };
+		1A33F97D2B0F977F00B3CB08 /* ScreamWrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A33F97B2B0F977F00B3CB08 /* ScreamWrapper.cpp */; };
 		983091DE24CEB69B00A0835D /* ConnectionTester.c in Sources */ = {isa = PBXBuildFile; fileRef = 983091DD24CEB69B00A0835D /* ConnectionTester.c */; };
 		983091DF24CEB69B00A0835D /* ConnectionTester.c in Sources */ = {isa = PBXBuildFile; fileRef = 983091DD24CEB69B00A0835D /* ConnectionTester.c */; };
 		9857AEF01EBE85E10084F99E /* rs.c in Sources */ = {isa = PBXBuildFile; fileRef = 9857AEEE1EBE85E10084F99E /* rs.c */; };
@@ -82,6 +85,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1A33F9732B0F942300B3CB08 /* mux.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mux.cpp; path = "moonlight-common-c/mux.cpp"; sourceTree = "<group>"; };
+		1A33F9782B0F977F00B3CB08 /* ScreamRx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScreamRx.h; path = "moonlight-common-c/scream/ScreamRx.h"; sourceTree = "<group>"; };
+		1A33F9792B0F977F00B3CB08 /* ScreamWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScreamWrapper.h; path = "moonlight-common-c/scream/ScreamWrapper.h"; sourceTree = "<group>"; };
+		1A33F97A2B0F977F00B3CB08 /* ScreamRx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ScreamRx.cpp; path = "moonlight-common-c/scream/ScreamRx.cpp"; sourceTree = "<group>"; };
+		1A33F97B2B0F977F00B3CB08 /* ScreamWrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ScreamWrapper.cpp; path = "moonlight-common-c/scream/ScreamWrapper.cpp"; sourceTree = "<group>"; };
 		983091DD24CEB69B00A0835D /* ConnectionTester.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ConnectionTester.c; sourceTree = "<group>"; };
 		9857AEEE1EBE85E10084F99E /* rs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = rs.c; path = "moonlight-common-c/reedsolomon/rs.c"; sourceTree = "<group>"; };
 		9857AEEF1EBE85E10084F99E /* rs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rs.h; path = "moonlight-common-c/reedsolomon/rs.h"; sourceTree = "<group>"; };
@@ -176,6 +184,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A33F9772B0F977400B3CB08 /* scream */ = {
+			isa = PBXGroup;
+			children = (
+				1A33F97A2B0F977F00B3CB08 /* ScreamRx.cpp */,
+				1A33F9782B0F977F00B3CB08 /* ScreamRx.h */,
+				1A33F97B2B0F977F00B3CB08 /* ScreamWrapper.cpp */,
+				1A33F9792B0F977F00B3CB08 /* ScreamWrapper.h */,
+			);
+			name = scream;
+			sourceTree = "<group>";
+		};
 		9857AEED1EBE85D50084F99E /* reedsolomon */ = {
 			isa = PBXGroup;
 			children = (
@@ -306,6 +325,8 @@
 		FB290E2519B37A4E004C83CF = {
 			isa = PBXGroup;
 			children = (
+				1A33F9772B0F977400B3CB08 /* scream */,
+				1A33F9732B0F942300B3CB08 /* mux.cpp */,
 				9857AEED1EBE85D50084F99E /* reedsolomon */,
 				98AB2E191CAD423B0089BB98 /* src */,
 				98AB2DEF1CAD422B0089BB98 /* enet */,
@@ -436,6 +457,7 @@
 			files = (
 				98C1FC142184124C0023FDDF /* SimpleStun.c in Sources */,
 				98F145352667D847004018E3 /* RtpAudioQueue.c in Sources */,
+				1A33F97C2B0F977F00B3CB08 /* ScreamRx.cpp in Sources */,
 				98AB2E401CAD425A0089BB98 /* AudioStream.c in Sources */,
 				98AB2E411CAD425A0089BB98 /* ByteBuffer.c in Sources */,
 				98AB2E421CAD425A0089BB98 /* Connection.c in Sources */,
@@ -443,6 +465,8 @@
 				98AB2E441CAD425A0089BB98 /* FakeCallbacks.c in Sources */,
 				98AB2E451CAD425A0089BB98 /* InputStream.c in Sources */,
 				983091DE24CEB69B00A0835D /* ConnectionTester.c in Sources */,
+				1A33F9742B0F942300B3CB08 /* mux.cpp in Sources */,
+				1A33F97D2B0F977F00B3CB08 /* ScreamWrapper.cpp in Sources */,
 				98AB2E461CAD425A0089BB98 /* LinkedBlockingQueue.c in Sources */,
 				98AB2E471CAD425A0089BB98 /* Misc.c in Sources */,
 				98AB2E481CAD425A0089BB98 /* Platform.c in Sources */,
@@ -649,7 +673,8 @@
 				EXECUTABLE_PREFIX = lib;
 				HEADER_SEARCH_PATHS = (
 					"moonlight-common-c/enet/include",
-					"../libs/**",
+					"moonlight-common-c/scream",
+					"../libs/OpenSSL.xcframework/ios-arm64/Headers/",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				ONLY_ACTIVE_ARCH = NO;
@@ -666,7 +691,8 @@
 				EXECUTABLE_PREFIX = lib;
 				HEADER_SEARCH_PATHS = (
 					"moonlight-common-c/enet/include",
-					"../libs/**",
+					"moonlight-common-c/scream",
+					"../libs/OpenSSL.xcframework/ios-arm64/Headers/",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				ONLY_ACTIVE_ARCH = NO;
