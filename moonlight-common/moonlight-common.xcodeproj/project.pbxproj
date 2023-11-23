@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A33F9742B0F942300B3CB08 /* mux.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A33F9732B0F942300B3CB08 /* mux.cpp */; };
 		1A33F97C2B0F977F00B3CB08 /* ScreamRx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A33F97A2B0F977F00B3CB08 /* ScreamRx.cpp */; };
 		1A33F97D2B0F977F00B3CB08 /* ScreamWrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A33F97B2B0F977F00B3CB08 /* ScreamWrapper.cpp */; };
 		983091DE24CEB69B00A0835D /* ConnectionTester.c in Sources */ = {isa = PBXBuildFile; fileRef = 983091DD24CEB69B00A0835D /* ConnectionTester.c */; };
@@ -85,7 +84,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1A33F9732B0F942300B3CB08 /* mux.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mux.cpp; path = "moonlight-common-c/mux.cpp"; sourceTree = "<group>"; };
 		1A33F9782B0F977F00B3CB08 /* ScreamRx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScreamRx.h; path = "moonlight-common-c/scream/ScreamRx.h"; sourceTree = "<group>"; };
 		1A33F9792B0F977F00B3CB08 /* ScreamWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScreamWrapper.h; path = "moonlight-common-c/scream/ScreamWrapper.h"; sourceTree = "<group>"; };
 		1A33F97A2B0F977F00B3CB08 /* ScreamRx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ScreamRx.cpp; path = "moonlight-common-c/scream/ScreamRx.cpp"; sourceTree = "<group>"; };
@@ -326,7 +324,6 @@
 			isa = PBXGroup;
 			children = (
 				1A33F9772B0F977400B3CB08 /* scream */,
-				1A33F9732B0F942300B3CB08 /* mux.cpp */,
 				9857AEED1EBE85D50084F99E /* reedsolomon */,
 				98AB2E191CAD423B0089BB98 /* src */,
 				98AB2DEF1CAD422B0089BB98 /* enet */,
@@ -465,7 +462,6 @@
 				98AB2E441CAD425A0089BB98 /* FakeCallbacks.c in Sources */,
 				98AB2E451CAD425A0089BB98 /* InputStream.c in Sources */,
 				983091DE24CEB69B00A0835D /* ConnectionTester.c in Sources */,
-				1A33F9742B0F942300B3CB08 /* mux.cpp in Sources */,
 				1A33F97D2B0F977F00B3CB08 /* ScreamWrapper.cpp in Sources */,
 				98AB2E461CAD425A0089BB98 /* LinkedBlockingQueue.c in Sources */,
 				98AB2E471CAD425A0089BB98 /* Misc.c in Sources */,
