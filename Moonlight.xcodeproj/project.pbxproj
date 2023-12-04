@@ -139,13 +139,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1A33F97F2B0F97C800B3CB08 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 98AB2E7F1CAD46830089BB98 /* moonlight-common.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1A33F96A2B0F93EF00B3CB08;
-			remoteInfo = "moonlight-common-cpp";
-		};
 		98AB2E831CAD46840089BB98 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 98AB2E7F1CAD46830089BB98 /* moonlight-common.xcodeproj */;
@@ -463,7 +456,6 @@
 			children = (
 				98AB2E841CAD46840089BB98 /* libmoonlight-common.a */,
 				FB1A68152132509400507771 /* libmoonlight-common-tv.a */,
-				1A33F9802B0F97C800B3CB08 /* libmoonlight-common-cpp.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -971,13 +963,6 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		1A33F9802B0F97C800B3CB08 /* libmoonlight-common-cpp.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libmoonlight-common-cpp.a";
-			remoteRef = 1A33F97F2B0F97C800B3CB08 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		98AB2E841CAD46840089BB98 /* libmoonlight-common.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1364,10 +1349,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					NDEBUG,
-					ENABLE_APP_STORE_RESTRICTIONS,
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = NDEBUG;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
